@@ -1,0 +1,38 @@
+@keyframes animation-right {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.my-element {
+    animation-name: animation-right;
+    animation-duration: 2s;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.my-animation {
+    animation-name: myAnim;
+    animation-duration: 2s;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+  }

@@ -1,0 +1,21 @@
+
+.banner {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    text-align: center;
+    color:aliceblue;
+    margin-right: -50%;
+    padding-bottom: 300px;
+    line-height: 150%;
+  }
+

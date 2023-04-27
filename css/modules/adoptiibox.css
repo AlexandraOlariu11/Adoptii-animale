@@ -1,0 +1,97 @@
+
+/* Stilizare carduri */
+
+.card-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px; 
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0 0.5rem; 
+    border: 1px solid #000; 
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card p {
+    margin-top: 0.5rem; 
+  }
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  h2 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: start;
+    margin-left: 30px;
+  }
+
+
+/* Element h3*/
+
+h3 {
+    padding-top: 10px;  
+    text-align: center;
+    font-size: 30px;
+}
+
+.background-section {
+  background-color: #53AD97; 
+  width: 100%; 
+  margin-top: 10px;
+}
+
+.section-text {
+  max-width: 960px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.section-h3 {
+  text-align: center; 
+  padding: 20px;
+  color:white;
+}
+
+.section-p {
+  font-size: 18px;
+  align-content: center;
+  text-align: justify;
+  padding-bottom: 10px;
+  color:white;
+}
+
+
+/* Stilizare sectiune pe fundal orange*/
+
+.background-orange {
+  background-color: #F5B462; 
+  width: auto; 
+  margin-left: 0px;
+  padding: 10px;
+  margin-right: 0px;
+  margin-top: -10px;
+}
+
+.orange-section {
+  text-align: justify;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  color:white;
+  font-size: 18px;
+  margin: 0 auto; 
+}

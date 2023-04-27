@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background: #EC7652;
+    height: 270px;
+    width: auto;
+  }
+
+  .second-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background: #F5B462;
+    height: 270px;
+    width: auto;
+  }
+  
+  .third-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #EC7652;
+    height: 270px;
+    width: auto;
+  }
+
+  .fourth-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #F5B462;
+    height: 270px;
+    width: auto;
+  }
+
+  .fifth-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #EC7652;
+    height: 270px;
+    width: auto;
+  }
+
+  .left-item {
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+    color:white;
+    font-size: 20px;
+  }
+  
+  
+  .right-item {
+    flex: 1;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .right-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
