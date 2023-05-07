@@ -1,0 +1,111 @@
+.input {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    background-color: #f3f3fb;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .input:hover,
+  .input:active,
+  .input:focus {
+    transition: all 0.5s ease;
+    outline: 2px solid #8EBEB1;
+  }
+  
+.button {
+    padding: 10px 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+
+.background-color-white {
+    background-color: #f8f9fb; 
+}
+
+.background-color-green {
+    background-color: #8EBEB1;
+}
+
+.background-color-white-on-hover:hover {
+    transition: all 0.5s ease;
+    background-color: #136683;
+  }
+
+.background-color-green-on-hover:hover {
+    transition: all 0.5s ease;
+    background-color: #8EBEB1;
+  }
+
+  .color-white {
+    color: #f8f9fb;
+  }
+
+  .color-black {
+    color: #136683;
+  }
+
+  .color-green-on-hover:hover {
+    transition: all 0.5s ease;
+    color: #f8f9fb;
+  }
+
+  label,
+  input {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .main-wrapper {
+    padding: 60px 20px;
+  }
+  
+.p-style {
+    font-size: 17px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: justify;
+}
+  
+  .column-1 {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  .p-0 {
+    padding: 0;
+  }
+  .column-sm-2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .full-height {
+    height: 100vh;
+  }
+  
+  .width-100 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: -1px;
+  }
+  
+
+  .containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* sau setati o inaltime specifica */
+    margin: 0 auto;
+  }
